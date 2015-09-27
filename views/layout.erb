@@ -30,7 +30,7 @@
           Beer Picker
           </a>
           <div class="right">
-            <a class="feedback-button button" target="_blank" href="https://docs.google.com/forms/d/1Y4apyCJ6dIuqSC4ympgkFLoFuIC7E8NWEQCHUYIp14A/viewform?usp=send_form">Add my beers</a>
+            <a class="feedback-button button" target="_blank" href="https://docs.google.com/document/d/10Vu57FknqXOyZU_mfsFqi3lVWngoCCsaDB4tMoOKsek/edit?usp=sharing">Add my beers</a>
             <a class="open-share-modal button" href="javascript:return(0)">Share</a>
           </div>
         </div>
@@ -48,7 +48,7 @@
       <div class="share-modal hidden">
         <div class="share-modal-inner">
           <h3 class="share-title">Share my Beer Picking</h3>
-          <% tweet_text = "#beer picker, no headache for me"%>
+          <% tweet_text = "#beer picker: "%>
           <% url = "http://beerpicker.herokuapp.com"%>
           <a target="_blank" href=<%="http://twitter.com/intent/tweet?text=#{CGI::escape tweet_text}&url=#{CGI::escape url}"%> class="button">Twitter</a>
           <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=beerpicker.herokuapp.com" class="button">Facebook</a>
