@@ -1,0 +1,191 @@
+body{
+  font-family: 'RaleWay', sans-serif;
+  font-size: 18px;
+  color: #fff;
+  background-color: #333;
+}
+a, a:hover, a:active, a:focus{
+  text-decoration: none;
+  color: inherit;
+}
+.link{
+  color: #5AB953;
+}
+.link:hover, .link:active, .link:focus{
+  border-bottom: solid 1px #5AB953;
+  color: #5AB953;
+}
+.navbar{
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  background-color: #5AB953;
+  border: solid 1px  #49A34B;
+}
+.navbar .logo{
+  font-size: 50px;
+  display: inline-block;
+}
+@media screen and (max-width: 1024px){
+  .navbar .logo{
+    padding-left: 10px;
+    font-size: 30px;
+    line-height: 60px;
+  }
+}
+.navbar .right{
+  display: inline-block;
+  float: right;
+  line-height: 30px;
+}
+@media screen and (max-width: 640px){
+  .navbar .right{
+    display: block;
+    float: none;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+.button{
+  display: inline-block;
+  border: solid 1px green;
+  background-color: #49A34B;
+  color: #fff;
+  border-radius: 5px;
+  padding: 15px;
+  -webkit-transition: all .25s ease-in-out;
+     -moz-transition: all .25s ease-in-out;
+      -ms-transition: all .25s ease-in-out;
+       -o-transition: all .25s ease-in-out;
+          transition: all .25s ease-in-out;
+}
+.button:hover, .button:active, .button:focus{
+  background-color: white;
+  color: #49A34B;
+}
+.feedback-modal.hidden, .share-modal.hidden{
+  display: none;
+}
+.feedback-modal, .share-modal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(20,20,20,.2);
+  z-index: 999;
+}
+.feedback-modal-inner, .share-modal-inner{
+  position: absolute;
+  width: 320px;
+  left: calc(50% - 180px);
+  top: calc(50% - 170px);
+  background-color: #49A34B;
+  padding: 20px;
+  border-radius: 5px;
+}
+.page{
+  padding-top: 20%;
+  /*background-color: #eee;*/
+  color: #000;
+  text-align: center;
+}
+@media screen and (max-width: 640px){
+  .page{
+    padding-top: 150px;
+  }
+}
+.row{
+  display: block;
+}
+.center{
+  text-align: center;
+}
+@media screen and (min-width: 1024px) {
+  .container{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
+
+/*Location*/
+.location-cta{
+  margin-bottom: 30px;
+}
+.location-title{
+  color: #fff;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+select{
+  width: 300px;
+}
+
+/*Beer Card*/
+.beer-random.card{
+  display: inline-block;
+  max-width: 100%;
+  width: 320px;
+  padding: 10px;
+  min-height: 200px;
+  text-align: left;
+  background-color: #5AB953;
+  border-radius: 5px;
+  font-weight: 200;
+  color: #fff;
+}
+.beer-title, .beer-percentage{
+  padding: 5px;
+  display: inline-block;
+  font-size: 40px;
+  font-weight: normal;
+  margin: 0;
+}
+.beer-title{
+  max-width: 70%;
+}
+.beer-percentage{
+  float: right;
+}
+.beer-description{
+  padding: 5px;
+  display: block;
+}
+.beer-random-button{
+  display: inline-block;
+  margin-top: 10px;
+}
+.app-header{
+  margin-top: 50px;
+  color: #fff;
+  font-weight: normal;
+}
+/*Cookies Disclaimer*/
+.cookies{
+  position: fixed;
+  bottom: 5px;
+  left: 0;
+  font-size: 9pt;
+  width: 50%;
+  padding-right: 10px;
+}
+.close-cookies{
+  background-color: #5AB953;
+  color: white;
+  padding: 2px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+/*ACK at bottom of page*/
+.ack{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  font-size: 10pt;
+}
+.ack a:hover{
+  border-bottom: solid 1px white;
+}

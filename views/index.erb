@@ -1,0 +1,29 @@
+<div class="row location-cta">
+  <% if @locations.count > 1 %>
+  <h2 class="location-title">Which beers would you like?</h2>
+  <form>
+    <select name="location">
+      <% @locations.each do |k| %>
+      <option <%if(@selected_location==k)%> selected<% end %> value=<%= k %>><%=k%></option>
+      <% end %>
+    </select>
+    <input type="submit" value="Go">
+  </form>
+  <% else %>
+  <h2 class="location-title">We've currently only got British Supermarket Beers, contribute a list <a class="link" target="_blank" href="https://docs.google.com/forms/d/1Y4apyCJ6dIuqSC4ympgkFLoFuIC7E8NWEQCHUYIp14A/viewform?usp=send_form">here</a></h2>
+  <% end %>
+</div>
+<div class="row">
+  <div class="beer-random card">
+    <h2 class="beer-title"><%= @beer["title"] %></h2>
+    <h3 class="beer-percentage"><%= @beer["percentage"] %>%</h3>
+    <p class="beer-description"><%= @beer["description"] %></p>
+  </div>
+</div>
+<div class="row">
+  <a href=<%= "/?location=#{@selected_location}" %> class="beer-random-button button">Pick me another</a>
+  <a href="#" class="button open-share-modal">Share</a>
+</div>
+<div class="row">
+  <a href="http://goo.gl/forms/SPtf360DVL" target="_blank"><h3 class="app-header feedback-button button">I would like an app that does this</h3></a>
+</div>
