@@ -24,15 +24,15 @@ get '/' do
   erb :index
 end
 
-get '/view_all' do
-  @locations = beers.keys
-  if(@locations.include?params[:location])
-    @beers = beers[params[:location]]
-    @selected_location = params[:location]
-  else
-    @beers = beers[@locations.first]
-    @selected_location = @locations.first
-  end
-  erb :view_all
-end
+# get '/view_all' do
+#   @locations = beers.keys
+#   if(@locations.include?params[:location])
+#     @beers = beers[params[:location]]
+#     @selected_location = params[:location]
+#   else
+#     @beers = beers[@locations.first]
+#     @selected_location = @locations.first
+#   end
+#   erb :view_all
+# end
 set :public_folder, File.dirname(__FILE__) + '/public'
