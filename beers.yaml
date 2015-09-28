@@ -14,7 +14,7 @@ UK:
   - title: 'Stella Artois'
     description: "Get some Belgium in you"
     percentage: 5.2
-  - title: "Beck's"
+  - title: "Beck`s"
     description: "I've run out of ideas for this one sadly"
     percentage: 5.0
   - title: 'Peroni'
@@ -35,7 +35,7 @@ UK:
   - title: 'Coors Light'
     description: "Some American beer my friend"
     percentage: 4.2
-  - title: "Foster's"
+  - title: "Foster`s"
     description: "Aussie? Nope, oh well, cheap and throat-friendly, what is that they said about throat-friendly things?"
     percentage: 5.1
   - title: "Budweiser"
@@ -45,7 +45,7 @@ UK:
     description: "Irish beer for all my lovelies, that nice dark colour the effect of burning, good right?"
     percentage: 4.2
   - title: "Desperados"
-    description: "Not quite beer but who cares right? Technically, untechnically, people think it's beer or it isn't, not my problem"
+    description: "Not quite beer but who cares right? Technically, untechnically, people think it`s beer or it isn`t, not my problem"
     percentage: 5.9
   - title: "Staropramen"
     description: "Beer from the darkness"
@@ -66,8 +66,70 @@ UK:
     description: "Cider? Yes, tastes alright, more sugar makes you nice and fat for the next day, all good"
     percentage: 4.5
   - title: "Bulmers"
-    description: "Cider: get drunk with less beer and more calories (don't quote me on this)"
+    description: "Cider: get drunk with less beer and more calories (don`t quote me on this)"
     percentage: 4.5
   - title: "Magners"
     description: "Cider: basically cider... cider... not-beer is also a worthy way to mention it"
     percentage: 4.5
+India:
+  - title: "Kingfisher"
+    description: "Well you know, these aren`t my beers but add some with the button at the top"
+    percentage: 5.0
+  - title: "Royal Challenge"
+    description: "Some premium Indian Lager, NOICE!!!"
+    percentage: 4.8
+  - title: "Kings"
+    description: "Indian names man, they rock"
+    percentage: 5.0
+  - title: "Kalyani Black Label"
+    description: "Oh that label, oh that bottle, ooooooh :)"
+    percentage: 4.8
+  - title: "Cobra"
+    description: "One of the ones you can get in Britain, dayuuuum, but c`mon cool animal name"
+    percentage: 5.0
+  - title: "Lion"
+    description: "Indian beers: Lion, King, Cobra :) I like"
+    percentage: 4.8
+  - title: "Bullet"
+    description: "This bullet packs a punch I reckon, all 6% of punch :P"
+    percentage: 6.0
+Belgium:
+  - title: "Chimay Pères Trappistes"
+    description: "The bloody long belgian names, the beers have a name, a surname, a middle name and a number too boot"
+    percentage: 10.0
+  - title: "Tripel Karmeliet"
+    description: "Triple who? Karma Light? Ok then"
+    percentage: 8.4
+  - title: "Lindemans Kriek"
+    description: "Lind man`s creek, is good for all"
+    percentage: 3.5
+  - title: "Lindemans Pécheresse"
+    description: "Fisher lady/vixen on the bottle: all good :)"
+    percentage: 2.5
+  - title: "Westmalle Trappist Tripel"
+    description: "You know British people would qualify this as a spirit :P, lad belgians"
+    percentage: 9.5
+  - title: "Duvel"
+    description: "Finally a name that isn`t completely mad... unlike the alcohol by volumne"
+    percentage: 8.5
+  - title: "Gouden Carolus Hopsinjoor"
+    description: "Oh yeaaaah, nice tasting one this one"
+    percentage: 8.0
+  - title: "Pawel Kwak"
+    description: "Just like a quacking duck but with a `K` instead"
+    percentage: 8.4
+  - title: "St Ambrosius Blonde"
+    description: "Just Saintly, just Blonde."
+    percentage: 6.6
+  - title: "Omer"
+    description: "Oh man, oh men, oh MER____DE PUTAIN (don`t translate that, it`s bad)"
+    percentage: 8.0
+  - title: "Kapittel Watou Tripel"
+    description: "They make this in an abbey... drunk monks I say"
+    percentage: 10.0
+  - title: "Bertinchamps Tripel"
+    description: "Another Triple Tripel beer, thank god they don`t sell this in Britain... people would die"
+    percentage: 8.0
+  - title: "La Chouffe"
+    description: "Belgium just wins hands down... This is one of the reason why. Why do we have to deals with Carling/Carlsberg/Foster`s when these lot get this? :rage:"
+    percentage: 8.0
