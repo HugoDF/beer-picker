@@ -8,6 +8,14 @@ a, a:hover, a:active, a:focus{
   text-decoration: none;
   color: inherit;
 }
+#content{
+  position: relative;
+  top: 175px;
+  right: 5px;
+}
+#content img{
+  width: 70%;
+}
 .link{
   color: #5AB953;
 }
@@ -131,8 +139,7 @@ select{
 /*Beer Card*/
 .beer-random.card{
   display: inline-block;
-  max-width: 100%;
-  width: 320px;
+  width: 70%;
   padding: 10px;
   min-height: 200px;
   text-align: left;
@@ -140,6 +147,11 @@ select{
   border-radius: 5px;
   font-weight: 200;
   color: #fff;
+}
+@media screen and (max-width: 640px){
+  .beer-random-card{
+    width: 320px;
+  }
 }
 .beer-title, .beer-percentage{
   padding: 5px;
