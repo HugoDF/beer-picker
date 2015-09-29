@@ -24,6 +24,14 @@
         </script>
     </head>
     <body>
+      <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.4&appId=1506956176285209";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
       <div class="navbar">
         <div class="container">
           <a href="/"class="logo">
@@ -50,9 +58,10 @@
           <h3 class="share-title">Share my Beer Picking</h3>
           <% tweet_text = "#beer picker: "%>
           <% url = "http://beerpicker.herokuapp.com"%>
-          <a target="_blank" href=<%="http://twitter.com/intent/tweet?text=#{CGI::escape tweet_text}&url=#{CGI::escape url}"%> class="button">Twitter</a>
-          <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=beerpicker.herokuapp.com" class="button">Facebook</a>
-          <a href="mailto:?subject=I got a random beer picked out&amp;body=Check out http://beerpicker.herokuapp.com. They'll help you pick your beer at the supermarket ;). I ended up with one that wasn't too horrible" class="button">Email</a>
+          <a target="_blank" href=<%="http://twitter.com/intent/tweet?text=#{CGI::escape tweet_text}&url=#{CGI::escape url}"%> class="button share-button">Twitter</a>
+          <!--<a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=beerpicker.herokuapp.com" class="button">Facebook</a>-->
+          <a href="mailto:?subject=I got a random beer picked out&amp;body=Check out http://beerpicker.herokuapp.com. They'll help you pick your beer at the supermarket ;). I ended up with one that wasn't too horrible" class="button share-button">Email</a>
+          <div class="fb-like" data-href="https://facebook.com/beerpicker" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true"></div>
         </div>
       </div>
       <div class="container">

@@ -49,10 +49,10 @@ a, a:hover, a:active, a:focus{
 }
 @media screen and (max-width: 640px){
   .navbar .right{
-    display: block;
-    float: none;
-    text-align: center;
-    margin-bottom: 10px;
+    padding-right: 2px;
+  }
+  .navbar .right .open-share-modal{
+    display: none;
   }
 }
 .button{
@@ -75,6 +75,9 @@ a, a:hover, a:active, a:focus{
 .feedback-modal.hidden, .share-modal.hidden{
   display: none;
 }
+.feedback-title, .share-title{
+  font-weight: normal;
+}
 .feedback-modal, .share-modal{
   position: fixed;
   top: 0;
@@ -92,6 +95,11 @@ a, a:hover, a:active, a:focus{
   background-color: #49A34B;
   padding: 20px;
   border-radius: 5px;
+  text-align: center;
+}
+.share-modal-inner .share-button{
+  position: relative;
+  bottom: 30px;
 }
 .page{
   padding-top: 20%;
