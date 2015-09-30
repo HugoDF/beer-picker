@@ -17,11 +17,11 @@ a, a:hover, a:active, a:focus{
   width: 70%;
 }
 .link{
-  color: #5AB953;
+  color: #FF9900;
 }
 .link:hover, .link:active, .link:focus{
-  border-bottom: solid 1px #5AB953;
-  color: #5AB953;
+  border-bottom: solid 1px #FF9900;
+  color: #FF9900;
 }
 .link.white{
   color: #fff;
@@ -35,8 +35,8 @@ a, a:hover, a:active, a:focus{
   top:0;
   left: 0;
   width: 100%;
-  background-color: #5AB953;
-  border: solid 1px  #49A34B;
+  background-color: #FF9900;
+  border: solid 1px  #FF9900;
 }
 .navbar .logo{
   font-size: 50px;
@@ -64,8 +64,8 @@ a, a:hover, a:active, a:focus{
 }
 .button{
   display: inline-block;
-  border: solid 1px green;
-  background-color: #49A34B;
+  border: solid 1px orange;
+  background-color: #ffaa00;
   color: #fff;
   border-radius: 5px;
   padding: 15px;
@@ -77,7 +77,7 @@ a, a:hover, a:active, a:focus{
 }
 .button:hover, .button:active, .button:focus{
   background-color: white;
-  color: #49A34B;
+  color: #FF9900;
 }
 .feedback-modal.hidden, .share-modal.hidden{
   display: none;
@@ -99,7 +99,7 @@ a, a:hover, a:active, a:focus{
   width: 320px;
   left: calc(50% - 180px);
   top: calc(50% - 170px);
-  background-color: #49A34B;
+  background-color: #FF9900;
   padding: 20px;
   border-radius: 5px;
   text-align: center;
@@ -161,7 +161,7 @@ select{
   padding: 10px;
   min-height: 200px;
   text-align: left;
-  background-color: #5AB953;
+  background-color: #FF9900;
   border-radius: 5px;
   font-weight: 200;
   color: #fff;
@@ -221,7 +221,7 @@ select{
   padding-right: 10px;
 }
 .close-cookies{
-  background-color: #5AB953;
+  background-color: #FF9900;
   color: white;
   padding: 2px;
   position: absolute;
