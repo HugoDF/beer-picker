@@ -71,28 +71,31 @@ UK:
   - title: "Magners"
     description: "Cider: basically cider... cider... not-beer is also a worthy way to mention it"
     percentage: 4.5
-India:
-  - title: "Kingfisher"
-    description: "Well you know, these aren`t my beers but add some with the button at the top"
-    percentage: 5.0
-  - title: "Royal Challenge"
-    description: "Some premium Indian Lager, NOICE!!!"
-    percentage: 4.8
-  - title: "Kings"
-    description: "Indian names man, they rock"
-    percentage: 5.0
-  - title: "Kalyani Black Label"
-    description: "Oh that label, oh that bottle, ooooooh :)"
-    percentage: 4.8
-  - title: "Cobra"
-    description: "One of the ones you can get in Britain, dayuuuum, but c`mon cool animal name"
-    percentage: 5.0
-  - title: "Lion"
-    description: "Indian beers: Lion, King, Cobra :) I like"
-    percentage: 4.8
-  - title: "Bullet"
-    description: "This bullet packs a punch I reckon, all 6% of punch :P"
+Bulgaria:
+  - title: "Kamenitza"
+    description: "When you`re out of money, you`re really thirsty and you literally don't give a shit about what you're drinking as long as it`s cold!"
+    percentage: 4.4
+  - title: "Kamenitza Tumno"
+    description: "When you`re cold and lonely, but still think of Summer and something in your hand..."
     percentage: 6.0
+  - title: "Astika Fine Quality Lager"
+    description: "Fine - no, Quality - hell no, Lager- arguable... Drinkable - meh."
+    percentage: 4.5
+  - title: "Zagorka"
+    description: "Wannabe Heineken. Still pretty good."
+    percentage: 5.0
+  - title: "Ariana"
+    description: "No, no, no, cheap."
+    percentage: 4.5
+  - title: "Stolichno"
+    description: "I wanna be Czech, but I'm not."
+    percentage: 6.5
+  - title: "Pirinsko"
+    description: "Named after the mountain. Doesn`t get you that high though... I mean drunk."
+    percentage: 4.3
+  - title: "Shumensko"
+    description: "One of the oldies. Actually good."
+    percentage: 4.3
 Belgium:
   - title: "Chimay Pères Trappistes"
     description: "The bloody long belgian names, the beers have a name, a surname, a middle name and a number too boot"
@@ -133,3 +136,25 @@ Belgium:
   - title: "La Chouffe"
     description: "Belgium just wins hands down... This is one of the reason why. Why do we have to deals with Carling/Carlsberg/Foster`s when these lot get this? :rage:"
     percentage: 8.0
+India:
+  - title: "Kingfisher"
+    description: "Well you know, these aren`t my beers but add some with the button at the top"
+    percentage: 5.0
+  - title: "Royal Challenge"
+    description: "Some premium Indian Lager, NOICE!!!"
+    percentage: 4.8
+  - title: "Kings"
+    description: "Indian names man, they rock"
+    percentage: 5.0
+  - title: "Kalyani Black Label"
+    description: "Oh that label, oh that bottle, ooooooh :)"
+    percentage: 4.8
+  - title: "Cobra"
+    description: "One of the ones you can get in Britain, dayuuuum, but c`mon cool animal name"
+    percentage: 5.0
+  - title: "Lion"
+    description: "Indian beers: Lion, King, Cobra :) I like"
+    percentage: 4.8
+  - title: "Bullet"
+    description: "This bullet packs a punch I reckon, all 6% of punch :P"
+    percentage: 6.0
