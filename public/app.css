@@ -23,6 +23,13 @@ a, a:hover, a:active, a:focus{
   border-bottom: solid 1px #5AB953;
   color: #5AB953;
 }
+.link.white{
+  color: #fff;
+}
+.link.white:hover, .link.white:active, .link.white:focus{
+  border-bottom: solid 1px #fff;
+  color: #fff;
+}
 .navbar{
   position: fixed;
   top:0;
@@ -119,6 +126,9 @@ a, a:hover, a:active, a:focus{
 }
 .row{
   display: block;
+}
+.share-row{
+  margin-top: 20px;
 }
 .center{
   text-align: center;
