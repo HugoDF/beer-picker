@@ -185,8 +185,22 @@ select{
   float: right;
 }
 .beer-description{
-  padding: 5px;
+  padding: 5px 60px;
   display: block;
+  position: relative;
+}
+.quote{
+  font-size: 60px;
+  line-height: 15px;
+  position: absolute;
+  top: 5px;
+}
+.quote.left{
+  left: 0;
+}
+.quote.right{
+  right: 0;
+  top: 0;
 }
 .beer-random-button{
   display: inline-block;
